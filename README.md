@@ -1,6 +1,6 @@
 # MCQ-Model
-This is a ipynb that can answer MCQ type questions with an accuracy of about 99%. 
-This was created for the LLM Science competetion hosted by kaggle. The competetition wanted to create a model that can answer user's questions that can hopefully compete with models that can go upto 10 times its size.  My teammate Prasann(@Prasann2004(Github) ) and I devoted about 2 months in order to come up with this solution. We experimented with a large number of models like llama 7B,Deberta V3,Mistral 7B,etc, however due to technical limitations and lack of adequate amount of knowledge(as this was our first experience with LLMs) we weren't able to incorporate large models like Llama and Mistral. So we sticked to Deberta V3 models. 
+This is an LLM model that can answer MCQ type questions with an accuracy of about 99%. 
+This was created for the LLM Science competetion hosted by kaggle, which aimed to build an LLM good enough tackle MCQ questions based on Science. The competetition aimed to create a model that could compete with models that can go upto 10 times its size.  My teammate Prasann(@Prasann2004(Github) ) and I decided to tackle this challenge and come up with a solution. We experimented with a large number of models like llama 7B,Deberta V3,Mistral 7B,etc, however due to technical limitations and lack of adequate amount of knowledge(as this was our first experience with LLMs) we weren't able to incorporate large models like Llama and Mistral. So we sticked to Deberta V3 models. 
 The notebook uploaded uses ensemble of 6 models with weights computed using a self devised method. 
 
 Our model makes use of RAG to gather information related to a question and answer on basis of that. 
