@@ -7,18 +7,27 @@ Our model makes use of RAG to gather information related to a question and answe
 ![Science LLM](https://github.com/Nb4159/MCQ-Model/assets/122211644/1f537ab9-d6ce-4a7c-ae84-e800864a0230)
 
 The notebook used for training the models is already provided in the repo. We trained 6 deberta models for this task:
-1)https://huggingface.co/namban4123/Deberta_for_multiple_choice
+1) https://huggingface.co/namban4123/Deberta_for_multiple_choice
+
 2)https://huggingface.co/Prasann15479/LLM_Science_1
+
 3)https://huggingface.co/namban4123/LLM_Model_Multiple_choice_questions
+
 4)https://huggingface.co/Prasann15479/LLM_Science_1
+
 5)https://huggingface.co/Prasann15479/LLM_Science_1
+
 6)https://huggingface.co/namban4123/LLM_Science
 
 
 The datasets we used for training our models are:
+
 1)https://www.kaggle.com/competitions/kaggle-llm-science-exam/data
+
 2)https://www.kaggle.com/datasets/mbanaei/all-paraphs-parsed-expanded
+
 3)https://www.kaggle.com/datasets/cdeotte/40k-data-with-context-v2
+
 4)https://www.kaggle.com/datasets/cdeotte/60k-data-with-context-v2
 
 Also thanks to everyone on kaggle whose ideas and datasets helped us along the way and made it possible for us to deliver this model.
